@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+#canvasContainer {
+    align-self: center;
+    width: 100%;
+}
+
+#side-container {
+    width: 100%;
+    flex-shrink: 2;
+}
+
+#gameControls {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#slider {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+#tool-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 50px;
+}
+
+#tools, #particles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.active {
+    border: 3px solid black;
+}
+
+.description {
+    font-size: 12px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
